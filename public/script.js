@@ -287,7 +287,7 @@ const screenshare = document.querySelector('.Screen-share');
 function startScreenShare() {
     if (screensharestatus) {
         return;
-    }
+    }   
     navigator.mediaDevices.getDisplayMedia({
 
         audio: {
